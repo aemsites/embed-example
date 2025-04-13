@@ -173,7 +173,6 @@ async function buildBreadcrumbs() {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  console.log('block', block.textContent);
   if (block.textContent === '') {
     // load nav as fragment
     const navMeta = getMetadata('nav');
